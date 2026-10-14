@@ -1,0 +1,10 @@
+/* Empty / reset for App.css as main styles are structured in index.css */
+.portfolio-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-content {
+  flex: 1;
+}
