@@ -8,10 +8,13 @@ export default function Hero({ onOpenResume }) {
 
   return (
     <section className="hero-section">
+      {/* Status pill stashed / removed as requested */}
+      {/* 
       <div className="hero-status-pill">
         <span className="status-dot"></span>
         <span>{t.hero.status}</span>
       </div>
+      */}
 
       <h1 className="hero-title">
         {t.hero.greeting} <span className="hero-name-gradient">{t.hero.name}</span>
